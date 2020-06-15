@@ -18,9 +18,9 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
 planeteer_calls.map do |elements|
   if elements.any? > 4 
-    true
+     return true
   elsif elements.all? < 4
-    false
+     return false
 end    
 end
 elements
