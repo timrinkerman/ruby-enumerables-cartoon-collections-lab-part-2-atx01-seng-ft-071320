@@ -30,6 +30,9 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
 planeteer_calls.map do |call|
   call.select(valid_calls)
+  # if the 
+  if call != valid_calls
+    return 
   
 end
 end
