@@ -18,7 +18,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
 planeteer_calls.map do |elements|
   if elements.length < 4 
-    elements = false
+    elements == false
 
 end
 elements
